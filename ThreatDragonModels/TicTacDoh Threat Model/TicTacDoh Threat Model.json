@@ -47,7 +47,8 @@
                 "c2ac26a2-9031-4b73-b737-0a41d1b0f2f6",
                 "b8892d8a-75c0-487c-869c-fa8cac1ccdd8",
                 "c29a7092-981e-4207-83b3-7ad037bd56c5",
-                "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc"
+                "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc",
+                "6f2a8ef6-c19a-46e5-a655-2cb8224aafdb"
               ],
               "containedElements": [
                 "5f1f97c9-45f6-405e-b05b-369a67620565",
@@ -92,7 +93,8 @@
                 "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc",
                 "211be002-f631-4578-af2f-1e02e023952e",
                 "8376c831-3e58-46fa-bc49-dd4ab466dd1b",
-                "41dc588d-c4eb-40e0-b49f-f711d38aeab9"
+                "41dc588d-c4eb-40e0-b49f-f711d38aeab9",
+                "6f2a8ef6-c19a-46e5-a655-2cb8224aafdb"
               ],
               "containedElements": [
                 "178d2561-ec0b-4e37-b65d-b0ce38c5f7e7",
@@ -2179,6 +2181,61 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "reads JSON (overwrites current_user, opponent)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "1ec8e079-8482-4712-8b6e-248c5c1557b5",
+                "63b5d643-80c7-451d-8d38-2e8e45186b53"
+              ]
+            },
+            "labels": [
+              "reads JSON (overwrites current_user, opponent)"
+            ],
+            "id": "6f2a8ef6-c19a-46e5-a655-2cb8224aafdb",
+            "source": {
+              "cell": "049ca7d4-ab23-408c-a736-5065de45388c",
+              "port": "b1c84d09-4221-4d44-9d72-5fc9c39d0878"
+            },
+            "target": {
+              "cell": "b293fb54-b02a-44b3-b19b-5b5caaf0aeb3",
+              "port": "51193120-63b0-4165-aaf3-20228c73f3e8"
+            },
+            "vertices": [
+              {
+                "x": 1230,
+                "y": 400
+              }
+            ]
+          },
+          {
             "position": {
               "x": 306.25,
               "y": 170
@@ -2439,6 +2496,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2522,7 +2580,6 @@
               ]
             },
             "id": "671c4e3d-a8af-4cb8-b64c-9e8c014a0355",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "show_opponent_dialog",
@@ -2559,6 +2616,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2642,7 +2700,6 @@
               ]
             },
             "id": "6f184fff-153e-404a-b248-ea08a1eba278",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "_init_db",
