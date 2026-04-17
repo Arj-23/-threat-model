@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": -454,
+              "x": -463.99999999999955,
               "y": 356.9999999999991
             },
             "size": {
@@ -55,13 +55,6 @@
                 "049ca7d4-ab23-408c-a736-5065de45388c",
                 "6f184fff-153e-404a-b248-ea08a1eba278"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
