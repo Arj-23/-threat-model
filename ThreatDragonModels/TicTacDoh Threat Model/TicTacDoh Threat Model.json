@@ -89,7 +89,6 @@
                 "c29a7092-981e-4207-83b3-7ad037bd56c5",
                 "933dd9c4-7e9c-418f-bf69-21d781f7817c",
                 "8668578b-d2b7-4ee0-8361-dba25f2c2a3d",
-                "78da4afd-09d5-4921-b3cc-67b92880363e",
                 "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc"
               ],
               "containedElements": [
@@ -98,7 +97,8 @@
                 "4542ab31-dad6-4573-babb-d3caf1c77327",
                 "aa248f78-817e-4eda-9840-2e8b4829917a",
                 "35a06d42-29b6-443c-8355-bba432e086a4",
-                "c61a87ad-ba2c-4093-bb6f-059350e0de1d"
+                "c61a87ad-ba2c-4093-bb6f-059350e0de1d",
+                "b293fb54-b02a-44b3-b19b-5b5caaf0aeb3"
               ]
             }
           },
@@ -130,8 +130,7 @@
                 "ea94ac85-2416-403f-bc2c-16f547499fbb",
                 "21d2563f-727f-42ca-870b-7b27e88799f6",
                 "933dd9c4-7e9c-418f-bf69-21d781f7817c",
-                "8668578b-d2b7-4ee0-8361-dba25f2c2a3d",
-                "78da4afd-09d5-4921-b3cc-67b92880363e"
+                "8668578b-d2b7-4ee0-8361-dba25f2c2a3d"
               ],
               "containedElements": [
                 "2c803cf4-2c2f-4a55-b700-61567daf2cc9",
@@ -744,7 +743,7 @@
             },
             "attrs": {
               "text": {
-                "text": "save_game / load_game"
+                "text": "save_game / "
               },
               "body": {
                 "stroke": "#333333",
@@ -840,7 +839,7 @@
             "id": "aa248f78-817e-4eda-9840-2e8b4829917a",
             "data": {
               "type": "tm.Process",
-              "name": "save_game / load_game",
+              "name": "save_game \n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1736,65 +1735,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "game_id (user input)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "63b5d643-80c7-451d-8d38-2e8e45186b53",
-                "238faa93-77f8-404b-b78a-442054773937"
-              ]
-            },
-            "labels": [
-              "game_id (user input)"
-            ],
-            "id": "78da4afd-09d5-4921-b3cc-67b92880363e",
-            "source": {
-              "cell": "2c803cf4-2c2f-4a55-b700-61567daf2cc9",
-              "port": "fb36920c-e3c2-4b37-a422-1cb9b81b3d1e"
-            },
-            "target": {
-              "cell": "aa248f78-817e-4eda-9840-2e8b4829917a",
-              "port": "5572ed77-8582-4327-bf6a-826c4771acbc"
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": -80
-              },
-              {
-                "x": 940,
-                "y": -80
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "reads JSON (overwrites session state)",
               "description": "",
               "outOfScope": false,
@@ -2136,6 +2076,126 @@
             "data": {
               "type": "tm.Process",
               "name": "_hash_password",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1065,
+              "y": 170
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "load_game"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "31bc616f-87da-4206-990a-c9b92961a1b2"
+                },
+                {
+                  "group": "right",
+                  "id": "51193120-63b0-4165-aaf3-20228c73f3e8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6142874a-9622-4272-8cd0-3bb8c528c7eb"
+                },
+                {
+                  "group": "left",
+                  "id": "0b49e2c7-90a3-4d8d-97b7-e63846805a1d"
+                }
+              ]
+            },
+            "id": "b293fb54-b02a-44b3-b19b-5b5caaf0aeb3",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Process",
+              "name": "load_game",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
