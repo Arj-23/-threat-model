@@ -45,15 +45,14 @@
                 "285d6548-a375-4884-9b11-ba1118716e5c",
                 "86841999-651c-4eb6-b70a-c3076f05abb8",
                 "c2ac26a2-9031-4b73-b737-0a41d1b0f2f6",
-                "b8892d8a-75c0-487c-869c-fa8cac1ccdd8",
                 "c29a7092-981e-4207-83b3-7ad037bd56c5",
                 "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc",
+                "761a15d7-78e2-429e-a510-5d027b45f634",
                 "6f2a8ef6-c19a-46e5-a655-2cb8224aafdb"
               ],
               "containedElements": [
                 "5f1f97c9-45f6-405e-b05b-369a67620565",
-                "049ca7d4-ab23-408c-a736-5065de45388c",
-                "6f184fff-153e-404a-b248-ea08a1eba278"
+                "049ca7d4-ab23-408c-a736-5065de45388c"
               ]
             }
           },
@@ -86,13 +85,13 @@
                 "285d6548-a375-4884-9b11-ba1118716e5c",
                 "86841999-651c-4eb6-b70a-c3076f05abb8",
                 "c2ac26a2-9031-4b73-b737-0a41d1b0f2f6",
-                "b8892d8a-75c0-487c-869c-fa8cac1ccdd8",
                 "c29a7092-981e-4207-83b3-7ad037bd56c5",
                 "933dd9c4-7e9c-418f-bf69-21d781f7817c",
                 "8668578b-d2b7-4ee0-8361-dba25f2c2a3d",
                 "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc",
                 "8376c831-3e58-46fa-bc49-dd4ab466dd1b",
                 "41dc588d-c4eb-40e0-b49f-f711d38aeab9",
+                "761a15d7-78e2-429e-a510-5d027b45f634",
                 "6f2a8ef6-c19a-46e5-a655-2cb8224aafdb",
                 "eebfc65a-3a58-4865-8b12-04d4af08154e",
                 "6988d946-66d3-4ca8-a3ad-35a9d794f3c3"
@@ -102,10 +101,10 @@
                 "fdcc0b39-148b-43f0-925b-1950a5a5ef54",
                 "4542ab31-dad6-4573-babb-d3caf1c77327",
                 "aa248f78-817e-4eda-9840-2e8b4829917a",
-                "35a06d42-29b6-443c-8355-bba432e086a4",
                 "c61a87ad-ba2c-4093-bb6f-059350e0de1d",
                 "b293fb54-b02a-44b3-b19b-5b5caaf0aeb3",
                 "671c4e3d-a8af-4cb8-b64c-9e8c014a0355",
+                "6f184fff-153e-404a-b248-ea08a1eba278",
                 "f49fa34e-0e73-491b-9586-fbbda8e9b7bb",
                 "c49c3d08-4406-45a2-8c82-8984f1e567ab",
                 "5c8d5125-d133-4a89-b793-18b70897843a",
@@ -1116,126 +1115,6 @@
             }
           },
           {
-            "position": {
-              "x": 60,
-              "y": 430
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "end_game"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 10,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "5572ed77-8582-4327-bf6a-826c4771acbc"
-                },
-                {
-                  "group": "right",
-                  "id": "e447a9da-758b-4dfd-b843-0fa0037be644"
-                },
-                {
-                  "group": "bottom",
-                  "id": "41ee8c9d-f2d0-4355-ba25-ee8924e592ea"
-                },
-                {
-                  "group": "left",
-                  "id": "09cb78c1-a81e-4e6f-b2de-20cf79c38e36"
-                }
-              ]
-            },
-            "id": "35a06d42-29b6-443c-8355-bba432e086a4",
-            "data": {
-              "type": "tm.Process",
-              "name": "end_game",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1452,61 +1331,6 @@
               {
                 "x": 1070,
                 "y": 450
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "writes game result",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "1ec8e079-8482-4712-8b6e-248c5c1557b5",
-                "63b5d643-80c7-451d-8d38-2e8e45186b53"
-              ]
-            },
-            "labels": [
-              "writes game result"
-            ],
-            "id": "b8892d8a-75c0-487c-869c-fa8cac1ccdd8",
-            "source": {
-              "cell": "35a06d42-29b6-443c-8355-bba432e086a4",
-              "port": "41ee8c9d-f2d0-4355-ba25-ee8924e592ea"
-            },
-            "target": {
-              "cell": "5f1f97c9-45f6-405e-b05b-369a67620565",
-              "port": "e8db6840-17cf-4914-ae3e-d0c4a35f1cb8"
-            },
-            "vertices": [
-              {
-                "x": 140,
-                "y": 620
               }
             ]
           },
@@ -2120,7 +1944,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec8e079-8482-4712-8b6e-248c5c1557b5",
+                "63b5d643-80c7-451d-8d38-2e8e45186b53"
+              ]
             },
             "labels": [
               "creates schema, no access controls"
@@ -2855,8 +2682,8 @@
           },
           {
             "position": {
-              "x": 610,
-              "y": 727.0000000000003
+              "x": 70,
+              "y": 430
             },
             "size": {
               "width": 60,
