@@ -89,7 +89,8 @@
                 "c29a7092-981e-4207-83b3-7ad037bd56c5",
                 "933dd9c4-7e9c-418f-bf69-21d781f7817c",
                 "8668578b-d2b7-4ee0-8361-dba25f2c2a3d",
-                "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc"
+                "4e5ab0c3-bc53-4e41-b889-e79cc8e5bfbc",
+                "211be002-f631-4578-af2f-1e02e023952e"
               ],
               "containedElements": [
                 "178d2561-ec0b-4e37-b65d-b0ce38c5f7e7",
@@ -130,7 +131,8 @@
                 "ea94ac85-2416-403f-bc2c-16f547499fbb",
                 "21d2563f-727f-42ca-870b-7b27e88799f6",
                 "933dd9c4-7e9c-418f-bf69-21d781f7817c",
-                "8668578b-d2b7-4ee0-8361-dba25f2c2a3d"
+                "8668578b-d2b7-4ee0-8361-dba25f2c2a3d",
+                "211be002-f631-4578-af2f-1e02e023952e"
               ],
               "containedElements": [
                 "2c803cf4-2c2f-4a55-b700-61567daf2cc9",
@@ -1969,6 +1971,61 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "game_id (user input)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "63b5d643-80c7-451d-8d38-2e8e45186b53",
+                "238faa93-77f8-404b-b78a-442054773937"
+              ]
+            },
+            "labels": [
+              "game_id (user input)"
+            ],
+            "id": "211be002-f631-4578-af2f-1e02e023952e",
+            "source": {
+              "cell": "2c803cf4-2c2f-4a55-b700-61567daf2cc9",
+              "port": "fb36920c-e3c2-4b37-a422-1cb9b81b3d1e"
+            },
+            "target": {
+              "cell": "b293fb54-b02a-44b3-b19b-5b5caaf0aeb3",
+              "port": "31bc616f-87da-4206-990a-c9b92961a1b2"
+            },
+            "vertices": [
+              {
+                "x": 750,
+                "y": -120
+              }
+            ]
+          },
+          {
             "position": {
               "x": 306.25,
               "y": 170
@@ -2109,6 +2166,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2192,7 +2250,6 @@
               ]
             },
             "id": "b293fb54-b02a-44b3-b19b-5b5caaf0aeb3",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "load_game",
